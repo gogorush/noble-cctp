@@ -1,4 +1,4 @@
-module github.com/circlefin/noble-cctp
+module github.com/gogorush/noble-cctp
 
 go 1.21
 
