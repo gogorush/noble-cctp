@@ -23,7 +23,7 @@ import (
 
 // x/cctp module sentinel errors
 var (
-	ErrUnauthorized                     = sdkerrors.Register(ModuleName, 30, "unauthorized")
+	//ErrUnauthorized                     = sdkerrors.Register(ModuleName, 30, "unauthorized")
 	ErrMint                             = sdkerrors.Register(ModuleName, 31, "tokens can not be minted")
 	ErrBurn                             = sdkerrors.Register(ModuleName, 32, "tokens can not be burned")
 	ErrAttesterAlreadyFound             = sdkerrors.Register(ModuleName, 33, "attester is already present")
