@@ -18,7 +18,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/circlefin/noble-cctp/x/cctp/types"
+	"github.com/gogorush/noble-cctp/x/cctp/types"
 	"github.com/stretchr/testify/require"
 )
 

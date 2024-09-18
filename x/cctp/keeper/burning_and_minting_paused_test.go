@@ -21,7 +21,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	keepertest "github.com/circlefin/noble-cctp/testutil/keeper"
-	"github.com/circlefin/noble-cctp/x/cctp/types"
+	"github.com/gogorush/noble-cctp/x/cctp/types"
 )
 
 func TestBurningAndMintingPaused(t *testing.T) {

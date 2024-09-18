@@ -25,7 +25,7 @@ import (
 
 	keepertest "github.com/circlefin/noble-cctp/testutil/keeper"
 	"github.com/circlefin/noble-cctp/testutil/nullify"
-	"github.com/circlefin/noble-cctp/x/cctp/types"
+	"github.com/gogorush/noble-cctp/x/cctp/types"
 )
 
 func TestMaxMessageBodySizeQuery(t *testing.T) {

@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/circlefin/noble-cctp/x/cctp/keeper"
-	"github.com/circlefin/noble-cctp/x/cctp/types"
+	"github.com/gogorush/noble-cctp/x/cctp/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/require"
 )

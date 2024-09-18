@@ -21,7 +21,7 @@ import (
 	keepertest "github.com/circlefin/noble-cctp/testutil/keeper"
 	"github.com/circlefin/noble-cctp/testutil/sample"
 	"github.com/circlefin/noble-cctp/x/cctp/keeper"
-	"github.com/circlefin/noble-cctp/x/cctp/types"
+	"github.com/gogorush/noble-cctp/x/cctp/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"

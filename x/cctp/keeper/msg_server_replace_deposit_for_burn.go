@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 
 	sdkerrors "cosmossdk.io/errors"
-	"github.com/circlefin/noble-cctp/x/cctp/types"
+	"github.com/gogorush/noble-cctp/x/cctp/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/crypto"
 )

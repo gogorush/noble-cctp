@@ -48,6 +48,7 @@ service Msg {
   rpc UpdateMaxMessageBodySize(MsgUpdateMaxMessageBodySize) returns (MsgUpdateMaxMessageBodySizeResponse);
   rpc SetMaxBurnAmountPerMessage(MsgSetMaxBurnAmountPerMessage) returns (MsgSetMaxBurnAmountPerMessageResponse);
   rpc UpdateSignatureThreshold(MsgUpdateSignatureThreshold) returns (MsgUpdateSignatureThresholdResponse);
+  rpc RegisterAccount(MsgRegisterAccount) returns (MsgRegisterAccountResponse);
 }
 
 // TODO add comments
@@ -264,3 +265,13 @@ message MsgRemoveRemoteTokenMessenger {
 }
 
 message MsgRemoveRemoteTokenMessengerResponse {}
+
+message MsgRegisterAccount {
+  string signer = 1;
+  string recipient = 2;
+  string channel = 3;
+}
+
+message MsgRegisterAccountResponse {
+  string address = 1;
+}

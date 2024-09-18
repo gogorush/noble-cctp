@@ -29,7 +29,7 @@ import (
 
 	"github.com/circlefin/noble-cctp/x/cctp/client/cli"
 	"github.com/circlefin/noble-cctp/x/cctp/keeper"
-	"github.com/circlefin/noble-cctp/x/cctp/types"
+	"github.com/gogorush/noble-cctp/x/cctp/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
