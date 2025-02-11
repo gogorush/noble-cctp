@@ -9,7 +9,7 @@ const TypeMsgRegisterAccount = "register_account"
 
 var _ sdk.Msg = &MsgRegisterAccount{}
 
-func NewMsgRegisterAccount(signer string, recipient string, channel string) *MsgRegisterAccount {
+func NewMsgRegisterAccount(signer, recipient, channel string) *MsgRegisterAccount {
 	return &MsgRegisterAccount{
 		Signer:    signer,
 		Recipient: recipient,
@@ -51,4 +51,3 @@ func (msg *MsgRegisterAccount) ValidateBasic() error {
 	}
 	return nil
 }
-
